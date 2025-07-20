@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>عوالي طويق - Single Page Website</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    
+    <!-- Google Fonts for Arabic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="عوالي طويق - شركة متخصصة في تنظيم الفعاليات والمؤتمرات والمعارض والحفلات" />
+    <meta name="keywords" content="عوالي طويق, فعاليات, مؤتمرات, معارض, حفلات" />
+    
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="عوالي طويق - Single Page Website" />
+    <meta property="og:description" content="عوالي طويق - شركة متخصصة في تنظيم الفعاليات والمؤتمرات والمعارض والحفلات" />
+    <meta property="og:type" content="website" />
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#8B5CF6',
+                        accent: '#A855F7',
+                    },
+                    fontFamily: {
+                        'arabic': ['Cairo', 'Amiri', 'Tahoma', 'Arial Unicode MS', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Cairo', 'Amiri', 'Tahoma', 'Arial Unicode MS', sans-serif;
+            direction: rtl;
+            line-height: 1.6;
+        }
+        
+        /* Hero gradient */
+        .hero-gradient {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* Custom animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .fade-in-up {
+            animation: fadeInUp 0.6s ease-out;
+        }
+        
+        /* Hover effects */
+        .hover-lift {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .hover-lift:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white/95 backdrop-blur-sm border-b border-gray-200 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-center items-center h-32">
+                <div class="flex items-center">
+                    <img src="./awali-tuwiq-logo.png" alt="عوالي طويق" class="h-16 md:h-20 w-auto">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-screen flex items-center justify-center hero-gradient">
+        <div class="absolute inset-0 bg-black/20"></div>
+        <div class="relative z-10 text-center text-white max-w-6xl mx-auto px-4 fade-in-up">
+            <h1 class="text-6xl md:text-8xl lg:text-9xl font-bold mb-8">
+                عوالي طويق
+            </h1>
+            <p class="text-2xl md:text-3xl lg:text-4xl mb-12 opacity-90 font-medium">
+                فعالية واحدة ... تكفي لتعرف من نحن
+            </p>
+        </div>
+        
+        <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <svg class="h-10 w-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-4xl mx-auto">
+                <h2 class="text-5xl md:text-6xl font-bold text-primary mb-16 fade-in-up">
+                    من نحن
+                </h2>
+                <div class="space-y-8 text-gray-700 text-xl md:text-2xl leading-relaxed fade-in-up">
+                    <p>
+                        نحن شركة متخصصة في تنظيم الفعاليات والمؤتمرات والمعارض والحفلات بجميع أنواعها، نسعى لصناعة لحظات لا تُنسى وتجارب متكاملة تجمع بين الإبداع والدقة في التنفيذ.
+                    </p>
+                    <p>
+                        نقدم خدماتنا باحترافية عالية تلبي تطلعات الأفراد والمؤسسات، مع تركيزنا على أدق التفاصيل وابتكار حلول مخصصة لكل فعالية، مما يجعلنا شركاء حقيقيين في نجاح كل مناسبة.
+                    </p>
+                    <p>
+                        من السوق المحلي ننطلق، وبأعيننا نطمح إلى العالمية، واضعين رضا عملائنا في صميم كل ما نقوم به.
+                    </p>
+                </div>
+
+                <!-- Vision and Mission -->
+                <div class="mt-20 grid md:grid-cols-2 gap-12">
+                    <!-- Vision -->
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover-lift fade-in-up">
+                        <h3 class="text-3xl md:text-4xl font-bold text-primary mb-6">
+                            الرؤية
+                        </h3>
+                        <p class="text-gray-700 text-lg md:text-xl leading-relaxed">
+                            أن نكون الخيار الأول والرائد في تنظيم الفعاليات، المؤتمرات، الحفلات، المعارض وفعاليات الشركات، محليًا وعالميًا، من خلال تقديم تجارب مبتكرة وعالية الجودة تفوق توقعات عملائنا.
+                        </p>
+                    </div>
+
+                    <!-- Mission -->
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover-lift fade-in-up">
+                        <h3 class="text-3xl md:text-4xl font-bold text-primary mb-6">
+                            الهدف
+                        </h3>
+                        <p class="text-gray-700 text-lg md:text-xl leading-relaxed">
+                            نلتزم بتقديم حلول متكاملة لتنظيم الفعاليات بأنواعها، بما يشمل الحفلات الخاصة، المؤتمرات المهنية، المعارض التجارية وفعاليات الشركات، مع التركيز على رضا العميل، والتميز في الجودة، والابتكار في التنفيذ، لخلق تجارب لا تُنسى تعكس هويتنا الاحترافية.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Core Values -->
+                <div class="mt-24">
+                    <h3 class="text-4xl md:text-5xl font-bold text-primary mb-16 text-center fade-in-up">
+                        قيم الشركة الأساسية
+                    </h3>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <!-- Customer Satisfaction -->
+                        <div class="bg-white p-8 rounded-2xl shadow-lg hover-lift fade-in-up">
+                            <h4 class="text-2xl md:text-3xl font-bold text-primary mb-4">
+                                رضا العميل
+                            </h4>
+                            <p class="text-gray-700 text-lg leading-relaxed">
+                                نضع عملاءنا في مقدمة أولوياتنا، ونعمل جاهدين لتلبية رغباتهم وتجاوز توقعاتهم.
+                            </p>
+                        </div>
+
+                        <!-- Quality -->
+                        <div class="bg-white p-8 rounded-2xl shadow-lg hover-lift fade-in-up">
+                            <h4 class="text-2xl md:text-3xl font-bold text-primary mb-4">
+                                الجودة
+                            </h4>
+                            <p class="text-gray-700 text-lg leading-relaxed">
+                                نلتزم بأعلى معايير الجودة في كل مرحلة من مراحل التخطيط والتنفيذ.
+                            </p>
+                        </div>
+
+                        <!-- Innovation -->
+                        <div class="bg-white p-8 rounded-2xl shadow-lg hover-lift fade-in-up">
+                            <h4 class="text-2xl md:text-3xl font-bold text-primary mb-4">
+                                الابتكار
+                            </h4>
+                            <p class="text-gray-700 text-lg leading-relaxed">
+                                نؤمن أن كل فعالية فرصة لإبداع جديد، ونسعى باستمرار لتقديم أفكار مبتكرة ومتفردة.
+                            </p>
+                        </div>
+
+                        <!-- Professionalism -->
+                        <div class="bg-white p-8 rounded-2xl shadow-lg hover-lift fade-in-up">
+                            <h4 class="text-2xl md:text-3xl font-bold text-primary mb-4">
+                                الاحترافية
+                            </h4>
+                            <p class="text-gray-700 text-lg leading-relaxed">
+                                نعتني بكل تفصيل ونلتزم بالدقة والمصداقية في تنفيذ أعمالنا.
+                            </p>
+                        </div>
+
+                        <!-- Continuous Development -->
+                        <div class="bg-white p-8 rounded-2xl shadow-lg hover-lift fade-in-up md:col-span-2 lg:col-span-1">
+                            <h4 class="text-2xl md:text-3xl font-bold text-primary mb-4">
+                                التطوير المستمر
+                            </h4>
+                            <p class="text-gray-700 text-lg leading-relaxed">
+                                نواكب أحدث التوجهات العالمية في مجال الفعاليات لنقدم لعملائنا أفضل ما توصلت إليه الصناعة.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center fade-in-up">
+                <h3 class="text-3xl font-bold mb-6">عوالي طويق</h3>
+                <p class="text-white/80 mb-6 max-w-3xl mx-auto text-xl">
+                    ماننظم لك حفلة .. نعيشها معك
+                </p>
+                <div class="text-white/90 mb-12 max-w-3xl mx-auto text-lg">
+                    <p class="mb-2">تواصل معنا</p>
+                    <p>hello@awalituwiq.com</p>
+                </div>
+                <div class="border-t border-white/20 pt-8">
+                    <p class="text-white/60 text-lg">
+                        © 2025 عوالي طويق. جميع الحقوق محفوظة.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.addEventListener('click', (e) => {
+            if (e.target.tagName === 'A' && e.target.getAttribute('href') && e.target.getAttribute('href').startsWith('#')) {
+                e.preventDefault();
+                const target = document.querySelector(e.target.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            }
+        });
+
+        // Add fade-in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all fade-in-up elements
+        document.querySelectorAll('.fade-in-up').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+
+        // Show first section immediately
+        document.querySelector('#home .fade-in-up').style.opacity = '1';
+        document.querySelector('#home .fade-in-up').style.transform = 'translateY(0)';
+    </script>
+</body>
+</html>

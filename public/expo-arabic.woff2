@@ -1,0 +1,343 @@
+<!doctype html>
+<html><head>
+<meta charset="UTF-8">
+
+	<!-- This site is optimized with the Yoast SEO plugin v15.0 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Page not found - الفونت | Arabic fonts خطوط عربية</title>
+	<meta name="robots" content="index,follow" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:title" content="Page not found - الفونت | Arabic fonts خطوط عربية" />
+	<meta property="og:site_name" content="الفونت | Arabic fonts خطوط عربية" />
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='stylesheet' id='wp-block-library-css'  href='https://alfont.com/wp-includes/css/dist/block-library/style.min.css?ver=5.5.15' type='text/css' media='all' />
+<base href="https://www.alfont.com/">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://alfont.com/wp-content/themes/alfont/css/alfont.css?v=3">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+<meta name="keywords" content="">
+<meta name="robots" content="index, follow">
+ 
+<meta content="https://alfont.com/wp-content/themes/alfont/img/alfont-og-image.jpg?v=1" property="og:image">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="620">
+<link rel="apple-touch-icon" sizes="57x57" href="https://alfont.com/wp-content/themes/alfont/img/fave/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://alfont.com/wp-content/themes/alfont/img/fave/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://alfont.com/wp-content/themes/alfont/img/fave/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://alfont.com/wp-content/themes/alfont/img/fave/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://alfont.com/wp-content/themes/alfont/img/fave/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://alfont.com/wp-content/themes/alfont/img/fave/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://alfont.com/wp-content/themes/alfont/img/fave/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://alfont.com/wp-content/themes/alfont/img/fave/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://alfont.com/wp-content/themes/alfont/img/fave/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="https://alfont.com/wp-content/themes/alfont/img/fave/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://alfont.com/wp-content/themes/alfont/img/fave/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="https://alfont.com/wp-content/themes/alfont/img/fave/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://alfont.com/wp-content/themes/alfont/img/fave/favicon-16x16.png">
+<link rel="manifest" href="https://alfont.com/wp-content/themes/alfont/img/fave/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="https://alfont.com/wp-content/themes/alfont/img/fave/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5470208384928111"
+     crossorigin="anonymous"></script>
+
+
+
+
+
+<script>
+function toggle_visibility(id) {
+var e = document.getElementById(id);
+if (e.style.display == 'none' || e.style.display=='') e.style.display = 'block';
+else e.style.display = 'none';
+var ee = document.getElementById(id);
+
+if (id=='multibrands') document.getElementById('login').style.display = 'none';
+if (id=='login') document.getElementById('multibrands').style.display = 'none';
+
+
+}
+function toggle_visibility2(id) {
+var e = document.getElementById(id);
+if (e.style.display == 'none' || e.style.display=='') {
+e.style.display = 'flex';
+e.style.top = '60px';
+
+
+}
+else {e.style.display = 'none';}
+}
+
+function toggle_visibility3() {
+var bg = document.getElementById("box_bg");
+var box = document.getElementById("box_container");
+if (bg.style.display == 'none' || bg.style.display=='') {
+bg.style.display = 'block';
+box.style.display = 'block';
+bg.style.opacity = '.7';
+
+
+}
+else {
+bg.style.display = 'none';
+box.style.display = 'none';
+
+}
+}
+
+</script>
+
+
+</head>
+<body >
+  <div class="header  d-flex xflex-column xflex-md-row align-items-right pt-3 pb-3   bg-white">
+
+<div class="container header-container">
+<div class="row rtl">
+    <div class="col-5 text-right"><a class="btn2p-2 text-dark" href="https://alfont.com"><img height="80" src="https://alfont.com/wp-content/themes/alfont/img/logo.svg"></a></div>
+    <div class="col-2"><a class="btn2p-2 text-dark" href="https://alfont.com">الفونت العربي</a></div>
+    <div class="col-2"><a class="btn2p-2 text-dark" href="https://alfont.com/contact">أتصل بنا</a></div>
+</div>
+</div>
+
+
+  
+
+</div>		
+<div class="col-md-12 bg-white border-bottom py-2 collapse"   id="collapseExample">
+	
+	<div class="row justify-content-center">
+                        <div class="col-12 col-md-10 col-lg-8">
+                            <form class="card card-sm">
+                                <div class="card-body row no-gutters align-items-center">
+                                    <div class="col-auto">
+                                        <i class="fas fa-search h4 text-body"></i>
+                                    </div>
+                                    <!--end of col-->
+                                    <div class="col">
+                                        <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Search topics or keywords">
+                                    </div>
+                                    <!--end of col-->
+                                    <div class="col-auto">
+                                        <button class="btn btn-lg btn-success" type="submit">Search</button>
+                                    </div>
+                                    <!--end of col-->
+                                </div>
+                            </form>
+                        </div>
+                        <!--end of col-->
+                    </div>
+
+</div>	 <!--search-->
+ 
+ <div class="container-fluid bg-white">
+ 	<div class="row border-bottom ">
+ 		<div class="col-4 col-sm-6 col-xs-6 col-md-2 py-3 font-cagegory-thumb border-bottom border-left"><a href="https://alfont.com/ruqaa-arabic-fonts"><img src="https://alfont.com/wp-content/themes/alfont/img/font2.svg"></a></div>
+ 		<div class="col-4 col-sm-6 col-xs-6 col-md-2 py-3 font-cagegory-thumb border-bottom border-left"><a href="https://alfont.com/diwany-arabic-fonts"><img src="https://alfont.com/wp-content/themes/alfont/img/font3.svg"></a></div>
+ 		<div class="col-4 col-sm-6 col-xs-6 col-md-2 py-3 font-cagegory-thumb border-bottom border-left"><a href="https://alfont.com/thulth-arabic-fonts"><img src="https://alfont.com/wp-content/themes/alfont/img/font4.svg"></a></div>
+ 		<div class="col-4 col-sm-6 col-xs-6 col-md-2 py-3 font-cagegory-thumb border-bottom border-left"><a href="https://alfont.com/naskh-arabic-fonts"><img src="https://alfont.com/wp-content/themes/alfont/img/font5.svg"></a></div>
+     <div class="col-4 col-sm-6 col-xs-6 col-md-2 py-3 font-cagegory-thumb border-bottom border-left"><a href="https://alfont.com/new-arabic-fonts"><img src="https://alfont.com/wp-content/themes/alfont/img/font1.svg"></a></div>
+        <div class="col-4 col-sm-6 col-xs-6 col-md-2 py-3 font-cagegory-thumb border-bottom border-left"><a href="https://alfont.com"><img src="https://alfont.com/wp-content/themes/alfont/img/font.svg"></a></div>
+
+   	</div>
+</div>
+<!-- alfont -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5470208384928111"
+     crossorigin="anonymous"></script>
+<!-- la_font -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5470208384928111"
+     data-ad-slot="9602212139"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+
+
+
+<div class="container-fluid  py-2" style="margin-top: -1px;background:#212a38">
+<div class="container p-2 bg-white mt-3 ">
+  <form role="search" method="get" class="form search-form alfont_main_search_form" action="./">
+<div class="input-group">
+      <input name="s" type="text" class="form-control form-control-lg border-0 text-right h2 alfont_main_search_form_input" placeholder="ابحث عن فونت">
+      <span class="input-group-btn">
+        <button type="submit" value="Search" class="btn btn-lg btn-dark rounded-0">ابحث عن فونت <i class="fa fa-search" aria-hidden="true"></i>&nbsp; </button>
+      </span>
+    </div>
+    </form>
+
+
+<div style="font-size: 24px;" class="col-md-12 alfont_main_search_form_results">
+
+</div>	
+<div style="font-size: 24px;" class="col-md-12">
+<a class="mx-2 " href="https://alfont.com/janna-lt-regular-arabic-font-download.html"><b>Janna lt Regualr </b></a>|
+<a class="mx-2 " href="https://alfont.com/janna-lt-bold-arabic-font-download.html"><b>Janna lt bold</b></a>|
+<a class="mx-2 " href="https://alfont.com/a-jannat-lt-regular-arabic-font-download.html"><b>AJannat lt regular</b></a>|
+<a class="mx-2 " href="https://alfont.com/a-jannat-lt-bold-arabic-font-download.html"><b>AJannat lt bold</b></a>
+<a class="mx-2 " href="https://alfont.com/a-jannat-lt-bold-arabic-font-download.html"><b>AJannat lt bold</b></a>
+<a class="mx-2 " href="https://alfont.com/a-arslan-wessam-b-a-arslan-wessam-b-arabic-font-download.html"><b>(A) Arslan Wessam B (A) Arslan Wessam</b> </a>
+</div>
+</div>
+</div>
+
+<div class="container-fluid  vh-100x bg-white">
+<div class="row justify-content-center">
+    
+
+<div class="col-md-3 text-center mt-5">
+	
+	
+</div>
+ <div class="col-md-12 text-center m-5"><span class=" px-3  marker">404 خطأ</span></div>
+
+
+</div>
+</div>
+
+
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+
+  <script  src="https://www.cssscript.com/demo/pure-js-text-rotator-typing-deleting-effects-ityped-js/src/ityped.js"></script>
+
+ <script type="text/javascript">
+$(function() {
+    
+
+
+
+var timeout;
+$("body").on('keyup', '.alfont_main_search_form_input', function () {
+    window.clearTimeout(timeout);
+    timeout = window.setTimeout(function(){
+
+
+
+var searchtermtext = $(".alfont_main_search_form_input").val();
+ $.ajax({
+type: 'POST',
+dataType: 'html',
+url: "https://alfont.com/request",
+data: {action: "font_search",searchterms: searchtermtext,},
+success: function(data){
+ $(".alfont_main_search_form_results").html(data);
+ 
+
+}});
+
+
+
+
+    },500);
+
+});
+
+ 
+
+ 
+
+
+
+
+}); </script>
+
+ 
+  <script>
+
+
+
+!function(a){a.fn.typewrite=function(b){return this.each(function(){function c(a,b){a<aText.length&&(b<aText[a].length?setTimeout(function(){" "==aText[a][b]?$tw.html($tw.html()+"&nbsp;"):$tw.html($tw.html()+aText[a][b]),b++,c(a,b)},nspeed):(a++,b=0,$tw.html($tw.html()+"&#13;&#10;"),setTimeout(c(a,b),0)))}b.text?(aText=b.text,b.speed&&!isNaN(b.speed)?nspeed=b.speed:nspeed=50,$tw=a(this),$tw.html(""),c(0,0)):console.log("")})}}(jQuery);
+
+$(function(){
+$('#textarea_font_big').typewrite( {
+text: [ "موقع الفونت ","خطوط عربيـة","اكتب هنــــــــــــــــا"],
+speed: 50,
+}
+);
+});
+
+
+/*on change preview repeat*/
+$("#textarea_font_big").on('change keyup paste', function() {
+  data = $("#textarea_font_big").val();
+$(".textarea_font_small").val(data +" "+data+" "+data+" "+data+" "+data+data +" "+data+" "+data+" "+data+" "+data+data +" "+data+" "+data+" "+data+" "+data);
+
+    // your code here
+});
+
+$(".sing_textarea_big_hover").click(function(){
+ $('#textarea_font_big').select();
+$(".sing_textarea_big_hover").hide();
+});
+
+
+
+
+$(".btn-try").click(function(){
+    targetextarea = "."+$(this).attr("targetextarea");
+    targetimage = ".img"+$(this).attr("targetextarea");
+    $(targetextarea).removeClass("d-none");
+    $(targetimage).hide();
+    $(targetextarea).select();
+
+
+ 
+ });
+
+
+
+
+
+  $(".tryallinput").bind("change paste keyup", function() {
+var thisinput = $(this).val();
+
+ $('.postimgloop').each(function() {
+$(this).remove();
+$(".textarea_post_loop").show();
+});
+
+$('.textarea_post_loop').each(function() {
+$(this).removeClass("d-none");
+});
+
+$('.textarea_post_loop').each(function() {
+$(this).val(thisinput);
+});
+
+
+    });
+ 
+
+
+ 
+</script>
+<footer class="footer text-center py-5">
+      <div class="container">
+	
+		   <nav class="my-2 my-md-0 mr-md-3">
+     <a class="btn2p-2 text-dark" href="#">Home</a>
+    <a class="p-2 text-dark" href="#"><i class="fas fa-kiss-beam"></i> Alfont.com </a>
+  </nav>
+		  
+      </div>
+    </footer>
+
+
+</body>
+
+</html>
